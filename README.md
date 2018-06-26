@@ -1,2 +1,2 @@
 # Dictionary
-A Dictionary in python
+A CLI Dictionary in python Language 
