@@ -7,7 +7,7 @@ data_item = json.load(open("data.json"))
 def find(word):
     words = data_item.keys()
     word = word.lower()           #case sensitive word eliminate
-    if word in words:
+    if word in words:             #if word in data_item: can also be used
         return data_item[word]
     else:
         return "Word you enter does not exist please recheck"
