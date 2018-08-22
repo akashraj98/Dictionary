@@ -3,7 +3,7 @@ import difflib            #this library is used to compare strings
 """with open('data.json') as data_file:
     data_item = json.load(data_file)"""
 
-data_item = json.load(open("data.json"))
+data_item = json.load(open("data.json"))  #json file containing data of dictionary.
 
 def find(word):
     words = data_item.keys()
